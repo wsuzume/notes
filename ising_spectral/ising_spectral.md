@@ -9,9 +9,9 @@ $$の最小化問題と考えることができる。ただし$J_{ij}$には正�
 
 量子アニーリングマシン（D-waveマシンなど）やイジングマシンは、$J_{ij}$を与えるだけで$\sigma_i, \sigma_j$の候補を探索できるが、古典コンピュータでは組み合わせ最適化問題となり、一般に解くことが困難である。
 
-${\bf \sigma}=(\sigma_1, \sigma_2, \ldots, \sigma_n)^{\mathrm{T}}$とおけば$(1)$式は
+Jの対角成分のみを取り出した行列を$T$として${\bf \sigma}=(\sigma_1, \sigma_2, \ldots, \sigma_n)^{\mathrm{T}}$とおけば$(1)$式は$P = T-J$を用いて
 $$
-H_0 = -{\bf \sigma}^{\mathrm{T}}J{\bf \sigma} \tag{2}
+H_0 = {\bf \sigma}^{\mathrm{T}}P{\bf \sigma} \tag{2}
 $$と表すことができる。
 
 ## スペクトラルクタスタリング
