@@ -30,3 +30,5 @@ Email: wspyy9584@gmail.com
 ## List
 * ising\_spectral.pdf
     * イジングモデルとスペクトラルクラスタリングの関係
+* basic\_statistics.pdf
+    * 基本的な統計量についての直感的な解説
